@@ -1,0 +1,51 @@
+---
+title: "Sobre el almacenamiento abierto de datos"
+subtitle: "Propuesta para la apertura de datos de investigación social"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+fontsize: 14pt
+# mainfont: Palatino
+# monofont: "Source Code Pro"
+# monofontoptions: "Scale=0.8"
+bibliography: [almacenamiento.bib]
+biblio-style: apalike
+link-citations: yes
+---
+
+# Presentación 
+
+Actualmente las investigaciones sociales producen una gran cantidad de información como transcripciones de entrevistas y bases de datos de encuestas, las cuales implican una gran inversión de recursos humanos y económicos financiado generalmente con fondos públicos. No obstante, la información producida no siempre es aprovechada por el público, ni por todos los investigadores que podrían desarrollar proyectos con estos materiales. Esta información y datos tampoco son preparados para su preservación, en miras de resguardar el conocimiento producido y almacenarlo en espacios que puedan perdurar en el tiempo y servir a las siguientes generaciones. Para que estas bases sean preservarles y utilizadas, es necesario que se encuentren a libre disposición de los investigadores y en repositorios múltiples que permitan su preservación. Esto puede hacerse después de que el equipo de investigación que produjo el material haya cumplido sus objetivos con los datos [@vandijk_Open_2020]. 
+
+La necesidad de una ciencia abierta que sea transparente con la producción de su información ha sido relevada por la Organización para la Cooperación y el Desarrollo Económicos [@ocde_Open_2020]. Más aun, generar políticas para adoptar las practicas de ciencia abierta en la investigación financiada públicamente es una exigencia para mantenerse en la organización. En Chile, representantes de la Agencia Nacional de Investigación y Desarrollo (ANID) del ministerio de ciencias ha generado una consulta pública sobre la temática y señalaron posteriormente el cumplimiento de los principios de ciencia abierta será una condición para las investigaciones financiadas, para garantizar el acceso a la información científica por parte de la ciudadanía [@anid_Con_2020]. Existen distintas razones para abrir los datos y la información producida, entre ellas algunas razones éticas, otras científicas y algunos incentivos personales.
+En términos éticos, teniendo en consideración que los datos suelen ser producidas por instituciones o investigadores financiados con fondos públicos, los ciudadanos tienen el derecho de acceder a los productos de la investigación [@bueno_What_2017]. Además, considerando que los recursos públicos asignados a investigación son escasos, la apertura de las bases de datos permite su reutilización y por ello ahorra recursos en la construcción de bases de datos [@gomez_Datos_2016]. Igualmente, fomenta la ética investigativa y la confiabilidad, reduce el fraude y, en última instancia, aumenta el valor de la sociología para los políticos y el público [@breznau_Future_2019]. 
+
+En términos prácticos y científicos, dejar la base de datos a libre disposición permite hacer evaluaciones sobre la rigurosidad de los resultados mediante la reproducibilidad, mejorando la calidad y la confianza en la ciencia [@unesco_Que_2020], mientras fomenta que más investigadores utilicen los datos y produzcan información (Whyte y Pryor, 2011), aumentando la colaboración y con ello la innovación científica [@cilac_Ciencia_2019]. 
+Por último, en relación a los incentivos personales, entregar los materiales producidos a libre disposición del  público con identificadores que permiten citar su trabajo y las investigaciones asociadas, fomenta un mayor impacto y visibilidad de las investigaciones. 
+
+Pese a las ventajas otorgadas por la apertura de los datos, los investigadores poseen reticencias a la hora de publicar abiertamente "sus" datos @ferguson_How_2014 entre las cuales destacan: 
+   * Miedo a las consecuencias negativas (mal uso, consecuencias legales o comerciales, entre otros).
+   * Temor a la falta del reconocimiento debido de su trabajo.
+   * Disgusto frente a la carga de trabajo que implica preparar los datos para su publicación. 
+   * Desconocimiento de cómo y dónde compartir los datos.
+
+
+En miras de las compresibles dudas de los investigadores señaladas por Ferguson, el presente documento busca facilitar la introducción al almacenamiento y publicación de datos. Se busca entregar información para resolver los cuatro puntos señalados, dando cuenta de lo que debe hacerse para disminuir los riesgos, fomentar el reconocimiento del trabajo propio (Con Identificadores, citas automáticas y licencias), facilitar el mejoramiento de la calidad de los datos y entregar información sobre dónde y como compartir los datos. 
+
+Para ello, este documento ofrece una propuesta de pasos a seguir para mejorar la calidad de los materiales de investigación producidos antes de publicarla en la web. Esta propuesta busca conciliar los estándares considerados óptimos en materia de almacenamiento y preservación de datos, con la realidad de las capacidades y herramientas de los investigadores chilenos en ciencias sociales. Dicho de otro modo, proponemos una lista de tareas a realizar para cumplir con los _mínimos_ necesarios para mejorar la calidad de los datos a publicar. 
+El documento parte presentando conceptos básicos de almacenamiento, posteriormente expone estándares comunes a nivel internacional y algunas propuestas para mejorar la calidad de los datos. Finalmente ofrece un conjunto de Consejos para la Apertura de Datos de Investigación Social (CADIS), que responden  al cómo y dónde publicar los datos para seguir dichos estándares y propuestas. 
+
+
+
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTkwNjg2NzgxMiwtMTU3NTk5MjldfQ==
+-->
