@@ -1,5 +1,5 @@
 ---
-title: "Panel Ciudadanía Escolar"
+title: "Sobre el almacenamiento abierto de datos"
 ---
 
 # Cómo y dónde subir datos
