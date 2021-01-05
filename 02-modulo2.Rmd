@@ -9,13 +9,19 @@ knitr::opts_chunk$set(out.width="80%", fig.pos = "!ht", out.extra = "")
 
 # Estándares y sugerencias sobre la preservación de datos
 
-Para poder generar una ciencia social más colaborativa y eficiente, es necesario que se posean
+Para poder generar una ciencia social más colaborativa y eficiente, es necesario que la comunidad de las ciencias sociales compartan estándares compartidos respecto a la calidad de los datos y del almacenamiento. De este modo los trabajos de investigación y los materiales de por si complejos serán más faciles de comprender y ser utilizados por terceros. 
 
 En la sección actual se revisarán tanto declaraciones de instituciones relacionadas con la Curatoría y el mantenimiento de los datos, como documentos que fijen normas comunes para el almacenamiento. El objetivo es recopilar y sistematizar los estándares de calidad para un repositorio abierto de datos. Posteriormente, evaluaremos distintos repositorios a partir de los criterios de la calidad sistematizados, buscando ventajas y desventajas de distintas experiencias en el almacenamiento de bases de datos de investigación social, junto con aquellos aprendizajes que puedan desprenderse.
 
 El resultado final de este trabajo será una propuesta de almacenamiento acorde a los estándares internacionales y un manual que facilite a los usuarios seguir estos estándares.
 
+A continuación se revisaran los siguientes estándares internacionales. 
+
+* Acceso abierto ICSU
+
 *	FAIR
+
+* DMP
 
 *	RISE-DDC
 
@@ -25,10 +31,27 @@ El resultado final de este trabajo será una propuesta de almacenamiento acorde 
 
 *	Esquema CILAC.
 
+## Acceso abierto ICSU
+ 
+ El Consejo Internacional para la Ciencia [@icsu_Open_2014] defiende los siguientes objetivos para la apertura
+acceso. El registro científico debe ser:
 
-## Principios Fair:  Datos, Metadatos e infraestructura digital. 
+* libre de barreras financieras a las que pueda contribuir cualquier investigador;
 
-Los principios de almacenamiento FAIR (Findable, Accessible, Interoperable, Reusable), son ampliamente reconocidos a nivel mundial. Estos principios han sido promovidos por organizaciones científicas regionales de América Latina [@cilac_Ciencia_2019] y Europeas [@europeancommision_FAIR_2016]. En Chile ANID del ministerio de ciencias, ha señalado la política de acceso a datos que impulsará se guiara por los principios FAIR.
+* libre de barreras financieras para que cualquier usuario acceda inmediatamente después de la publicación;
+
+* disponible sin restricción de reutilización para cualquier propósito, sujeto a
+atribución adecuada;
+
+* calidad garantizada y publicada de manera oportuna; y
+
+* archivado y disponible a perpetuidad
+
+Para alcanzar estos objetivos @ics_Open_2020 señala que las instituciones financiaras y las universidades deben fortalecer las capacidades para alinearse con los principios FAIR, los cuales presentamos a continuación. 
+
+## Principios FAIR:  Datos, Metadatos e infraestructura digital. 
+
+Los principios de almacenamiento FAIR (Findable, Accessible, Interoperable, Reusable), son ampliamente reconocidos a nivel mundial. Estos principios han sido promovidos por organizaciones científicas regionales como CILAC [@ramirez_Ciencia_2019] y Europeas [@ec_FAIR_2016]. En Chile ANID del ministerio de ciencias, ha señalado la política de acceso a datos que impulsará se guiara por los principios FAIR.
 
 Los principios FAIR, son sumamente compatibles con las diversas formas de información producida por las ciencias sociales, ya sean documentos de texto, audiovisuales o bases de datos. Este es un buen motivo para fomentar los principios FAIR en todos los tipos de investigaciones en ciencias sociales.
 
@@ -50,7 +73,7 @@ El primer paso para (re) usar datos es encontrarlos. Los metadatos y los datos d
 
 Los identificadores únicos eliminan la ambigüedad, facilitando que una investigación, una base de datos o cualquier producto de investigación, no sea confundido con otro producto por tener un nombre o características similares.
 
-Los ejemplos más comunes son los URL (Localizador Uniforme de Recursos) los cuales asignan un sitio único a cada página web, como los URL “www.google.com” o “www.youtube.com”. Otro tipo de identificadores más cercano a las ciencias sociales son los ISBN (Número Internacional Normalizado del Libro) o el DOI (Identificador de Material Digital) que solemos ver asociados a los artículos de investigación. A diferencia del URL el doi no cambia, aunque el material cambie de ubicación en la web. Así, los identificadores se asocian de forma única a los datos (Bases de datos, entrevistas, transcripciones), como es el ejemplo de este doi https://doi.org/10.5064/F6HTXF0H que corresponde al identificador de un conjunto de materiales y Focus Groups sobre género y participación en el desarrollo comunitario en Senegal.
+Los ejemplos más comunes de identificadores son los URL (Localizador Uniforme de Recursos) los cuales asignan un sitio único a cada página web, como los URL “www.google.com” o “www.youtube.com”. Otro tipo de identificadores más cercano a las ciencias sociales son los ISBN (Número Internacional Normalizado del Libro) o el DOI (Identificador de Material Digital) que solemos ver asociados a los artículos de investigación. A diferencia del URL el doi no cambia, aunque el material cambie de ubicación en la web. Así, los identificadores se asocian de forma única a los datos (Bases de datos, entrevistas, transcripciones), como es el ejemplo de este doi https://doi.org/10.5064/F6HTXF0H que corresponde al identificador de un conjunto de materiales y Focus Groups sobre género y participación en el desarrollo comunitario en Senegal.
 
 Estos identificadores también ayudarán a que el trabajo sea más fácilmente compartido, reconocido y posea un mayor impacto. En la misma línea, facilita su citación puesto que, al ingresar estos identificadores en gestores de citas como Zotero, se genera una referencia bibliográfica automática. 
 
@@ -134,13 +157,93 @@ Los datos y los metadatos deben estar nombrados y ordenados de modo coherente co
 
 Segun la investigación de @gomez_Datos_2016, el esquema metadatos más utilizados en las ciencias sociales es el de DDC. No obstante, existe una gran divergencia respecto a cuales deben ser los metadatos incluidos. 
 
+## DMP
+
+Los planes de manejo de datos (DMP) son una herramienta utilizada por la comisión europea (EC) para mejorar la producción y almacenamiento de datos producidos por investigaciones, consiste en una planificación respecto al ciclo de vida de los datos desde su creación hasta su preservación. En este sentido son una herramienta para la organización y estandarización del manejo de datos. 
+
+En un documento de apoyo para investigadores la @ec_FAIR_2016 A modo de sintesis proponen documentar los siguientes puntos respecto al manejo de los datos 
+
+Componente DMP Problemas que deben abordarse
+
+1. __Resumen de datos__
+
+* Indique el propósito de la recopilación / generación de datos
+* Explicar la relación con los objetivos del proyecto.
+* Especificar los tipos y formatos de datos generados / recopilados
+* Especifique si los datos existentes se están reutilizando (si corresponde)
+* Especificar el origen de los datos
+* Indique el tamaño esperado de los datos (si se conoce)
+* Describa la utilidad de datos: para quién será útil
+
+2. __Datos FAIR__
+
+2.1. Haciendo que los datos se puedan encontrar, incluidos
+disposiciones para metadatos
+
+* Describir la capacidad de descubrimiento de datos (provisión de metadatos)
+* Resuma la identificabilidad de los datos y consulte el mecanismo de identificación estándar. ¿Utiliza identificadores persistentes y únicos como los identificadores de objetos digitales?
+* Esquema de convenciones de nomenclatura utilizadas
+* Describa el enfoque hacia las palabras clave de búsqueda
+* Describir el enfoque para versiones claras
+* Especificar estándares para la creación de metadatos (si los hubiera). Si no hay estándares en su
+disciplina describe qué tipo de metadatos se crearán y cómo
+
+2.2 Hacer que los datos sean accesibles abiertamente
+
+* ¿Especifique qué datos estarán disponibles abiertamente? Si algunos datos se mantienen cerrados, proporcione
+justificación para hacerlo
+* Especificar cómo estarán disponibles los datos
+* Especifique qué métodos o herramientas de software se necesitan para acceder a los datos. Es
+documentación sobre el software necesario para acceder a los datos incluidos? Es posible que
+incluir el software relevante (por ejemplo, en código fuente abierto)?
+* Especificar dónde están los datos y los metadatos asociados, la documentación y el código.
+depositado
+* Especifique cómo se proporcionará el acceso en caso de que haya restricciones
+
+2.3. Hacer que los datos sean interoperables
+
+* Evalúe la interoperabilidad de sus datos. Especifique qué vocabularios de datos y metadatos,
+estándares o metodologías que seguirá para facilitar la interoperabilidad.
+* Especifique si utilizará vocabulario estándar para todos los tipos de datos presentes en su
+conjunto de datos, para permitir la interoperabilidad interdisciplinaria? Si no es así, ¿proporcionará un mapeo para
+ontologías de uso más común?
+
+2.4. Incrementar la reutilización de datos (mediante
+aclarar licencias)
+
+* Especificar cómo se licenciarán los datos para permitir la mayor reutilización posible
+* Especifique cuándo los datos estarán disponibles para su reutilización. Si corresponde, especifique por qué y
+por qué período se necesita un embargo de datos
+* Especificar si los datos producidos y / o utilizados en el proyecto son utilizables por terceros.
+fiestas, en particular después de la finalización del proyecto? Si la reutilización de algunos datos es
+restringido, explica por qué
+* Describir los procesos de aseguramiento de la calidad de los datos.
+* Especifique el período de tiempo durante el cual los datos permanecerán reutilizables
+
+3. __Asignación de recursos__
+* Estime los costos para hacer que sus datos sean FAIR. Describa cómo piensa cubrir estos
+costos
+* Identifique claramente las responsabilidades de la gestión de datos en su proyecto
+* Describir los costos y el valor potencial de la preservación a largo plazo.
+
+
+4. __Seguridad de los datos__
+* Abordar la recuperación de datos, así como el almacenamiento seguro y la transferencia de datos sensibles.
+
+5. __Aspectos éticos__
+* Para ser cubierto en el contexto de la revisión de ética, sección de ética de DoA y ética
+entregables. Incluya referencias y aspectos técnicos relacionados si no están cubiertos por el
+ex
+
+6. Otro
+* Consulte otros procedimientos nacionales / financiadores / sectoriales / departamentales para la gestión de datos.
+que está usando (si corresponde)
+
 
 ## RISE-DDC: Autoevaluación para el proveedores de repositorios abiertos. 
 
 
-La organización del Reino Unido [Digital Curation Center DCC](https://www.dcc.ac.uk/) es un centro de Curatoría digital, que nació el 2004 y tenía inicialmente el objetivo de apoyar en el almacenamiento de datos a nivel nacional. Posteriormente se ha masificado internacionalmente. Este centro ofrece servicios de Curatoría de distinto tipo, entre ellos asesoramiento técnico y programas de formación. Entregan información gratuita para ayudar a los centros de investigación y a las universidades en el almacenamiento de datos siguiendo los principios FAIR. En esta línea, la página web ofrece un marco de autoevaluación de la infraestructura de investigación [RISE](https://www.dcc.ac.uk/guidance/how-guides/RISE)[@ddc_Using_2017]. El marco RISE describe 21 capacidades, distribuidas en diez áreas de servicio de soporte de datos de investigación (RMD, _research data managament_).  
-
- [Documento](https://www.dcc.ac.uk/sites/default/files/documents/publications/UsingRISE_v1_1.pdf)
+La organización del Reino Unido [Digital Curation Center DCC](https://www.dcc.ac.uk/) es un centro de Curatoría digital, que nació el 2004 y tenía inicialmente el objetivo de apoyar en el almacenamiento de datos a nivel nacional. Posteriormente se ha masificado internacionalmente. Este centro ofrece servicios de Curatoría de distinto tipo, entre ellos asesoramiento técnico y programas de formación. Entregan información gratuita para ayudar a los centros de investigación y a las universidades en el almacenamiento de datos siguiendo los principios FAIR. En esta línea, la página web ofrece un marco de autoevaluación de la infraestructura de investigación [RISE](https://www.dcc.ac.uk/guidance/how-guides/RISE) [@ddc_Using_2017]. El marco RISE describe 21 capacidades, distribuidas en diez áreas de servicio de soporte de datos de investigación (RMD, _research data managament_).  
 
 ```{r echo=FALSE, fig.align='center', fig.cap="Propuesta RISE-DDI"}
 knitr::include_graphics("RDMcomponents.png")
@@ -149,7 +252,7 @@ knitr::include_graphics("RDMcomponents.png")
 Los 21 puntos sobre estas 10 áreas se dividen en tres niveles, siendo cada uno mejor que el anterior. En general la lógica de los niveles va desde, lo más mínimo es cumplir con los requisitos del financiador (p. ej. CONICYT) y lo máximo es establecerse como referente del campo en la apertura de datos. A continuación presentamos los aspectos generales sobre este esquema de autoevaluación de infraestructura para el soporte de datos.
 
 
-__política y estrategia de__ 
+__Política y estrategia__ 
 
 Política de desarrollo: Las políticas institucionales que inciden en el RDM (por ejemplo, ética, investigación, etc.) están unidas y son complementarias. Las políticas se promueven externamente, con el objetivo de impulsar el sector, cumplen con los requisitos del financiador y fomentan el almacenamiento perdurable.
   
@@ -268,8 +371,49 @@ Esta área se refiere a los procesos y mecanismos para recopilar y exponer los m
 Alcance de catalogación de metadatos: El servicio cataloga los metadatos para mejorar la reutilización potencial de conjuntos de datos de acuerdo con los estándares líderes del sector, o cumplir con propósitos específicos de dominio. 
 
 
-## OASIS Managament Research Data. 
+## OAIS Managament Research Data. 
 
+Este documento es una práctica técnica recomendada para su uso en el desarrollo de un consenso más amplio sobre lo que se requiere para que un archivo proporcione una conservación permanente o indefinida a largo plazo de la información digital [@ccsds_Recommendation_2012, p.3]. la CCSDS propone un marco común de términos y conceptos que componen un sistema de información de archivo abierto (OAIS). Un OAIS es un Archivo, que consiste en una organización, que puede ser parte de una organización más grande, de personas y sistemas que han aceptado la responsabilidad de preservar la información y ponerla a disposición de una Comunidad Designada (P.11). 
+
+Este documento no asume ni respalda ninguna plataforma informática específica, entorno de sistema, paradigma de diseño de sistema, metodología de desarrollo de sistema. Sino que plantea las obligaciónes para la preservación independiente del modo en que sera almacenado. 
+
+Esta subsección establece responsabilidades obligatorias que una organización debe cumplir en para operar un Archivo OAIS.
+
+La OAIS deberá:
+- Negociar y aceptar la información adecuada de los Productores de información.
+
+- Obtener un control suficiente de la información proporcionada al nivel necesario para garantizar preservación a largo plazo.
+
+- Determinar, ya sea por sí mismo o en conjunto con otras partes, qué comunidades
+debe convertirse en la Comunidad Designada y, por lo tanto, debe poder
+comprender la información proporcionada, definiendo así su Base de Conocimientos.
+
+- Asegurarse de que la información a conservar sea comprensible de forma independiente para el
+Comunidad designada. En particular, la Comunidad Designada debería poder
+comprender la información sin necesidad de recursos especiales como la asistencia de
+los expertos que produjeron la información.
+
+- Siga políticas y procedimientos documentados que aseguren que la información sea
+preservado contra todas las contingencias razonables, incluida la desaparición del Archivo,
+asegurándose de que nunca se elimine a menos que se permita como parte de una estrategia aprobada. Allí
+no debe haber eliminaciones ad-hoc.
+
+- Poner la información preservada a disposición de la comunidad designada y habilitar
+la información que se difundirá como copias de, o como rastreable a, el original
+presentó objetos de datos con evidencia que respalde su autenticidad.
+
+
+En el caso de las ciencias sociales la comunidad designada es, principalmente, el conjunto de investigadores de las ciencias sociales. Tambien podria ser el publico en general. Centrandonos en los investigadores parece razonable la necesidad de incluir la documentación necesaria para los datos publicados puedan ser debidamente comprendidos sin la necesidad de recurrir a quienes los crearon.
+
+
+![EntidadesF uncionales OAIS](EntidadesFuncionalesOAIS.JPG)
+
+
+
+- señalar las luces y sombras planteadas por https://www.sciencedirect.com/science/article/pii/S0187358X16300545 
+
+el objetivo principal es superar le problema de la rapida opsolecencia de los datos por cambios en elmundo digital.
+- Oais es un esquema de preservacion digital creado 
 
 Otra propuesta similar de pasos a seguir para mejorar la calidad de los datos en miras de su apertura se encuentra en el segundo capítulo del libro "Managament and sharing research data" [@corti_Managing_2019]. Esta sección pone énfasis en los ciclos de vida de los datos, ciclo el cual debe ser comprendido como un proceso de producción y preparación de los datos que parte antes del levantamiento y termina después de publicados los resultados. Este conjunto de actividades ha sido elaborado en base a al Open Archival Information System (OAIS).
 
@@ -319,11 +463,9 @@ Otra propuesta similar de pasos a seguir para mejorar la calidad de los datos en
 Además de esta lista de tareas para el ciclo de vida de los datos, se destaca la importancia de mantener los datos en un formato y una plataforma que faciliten el acceso a los datos en el futuro. También se destaca la importancia del control de versiones, sobre este punto y basados en las herramientas disponibles actualmente se considera optimo el uso de [Github](https://github.com/) para el versionamiento de las bases de datos, pues esta página genera un registro de las distintas versiones y permite ir guardando los cambios cuando se considere necesario. Otra Herramienta que puede servir para investigadores menos experimentados es [OpenRefine](https://openrefine.org/), plataforma que fue diseñada por Google y está enfocada en la edición de bases de datos, permitiendo recodificaciones y transformaciones varias, además de mantener un registro de las versiones. 
 
 
-## Tuberia de datos (icpsr)
+## Tuberia de datos (ICPSR)
 
-__ICPSR__
-
-Una de las organizaciones mundiales más grandes en torno al almacenamiento de datos es ICPSR. Esta plataforma, además de dedicarse al almacenamiento de datos realiza cursos sobre curatoría de datos. Esta plataforma posee múltiples bases de datos de distintas áreas y ofrece la posibilidad de distintos servicios como la posibilidad de descargar el metadata, de realizar análisis en línea, de realizar gráficos y, además, posee herramientas para solicitar bases de datos con información sensible, para lo cual es necesario entregar una serie de documentos como el cv. Esta plataforma si bien ofrece estos servicios no todas las bases de datos los utilizan.
+Una de las organizaciones mundiales más grandes en torno al almacenamiento de datos es inter-university Consortium for Political and Social Research (ICPSR). Esta plataforma, además de dedicarse al almacenamiento de datos realiza cursos sobre curatoría de datos. Esta plataforma posee múltiples bases de datos de distintas áreas y ofrece la posibilidad de distintos servicios como la posibilidad de descargar el metadata, de realizar análisis en línea, de realizar gráficos y, además, posee herramientas para solicitar bases de datos con información sensible, para lo cual es necesario entregar una serie de documentos como el cv. Esta plataforma si bien ofrece estos servicios no todas las bases de datos los utilizan.
 
 Esta organización, hace un tiempo realizo un curso sobre curatoría y mantenimiento de datos, curso en el cual se enseñó, entre otros conocimiento y herramientas, el diseño de flujo de datos "tubería de procesamiento", que es un esquema con los pasos necesarios para la publicación de los datos en línea. Los pasos de este esquema se encuentran en el siguiente esquema.  
 

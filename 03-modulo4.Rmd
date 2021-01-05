@@ -41,6 +41,13 @@ No obstante sus buenos estandares de almacenamiento, no se puede acceder a los d
 Un aspecto destacable respecto a este repositorio es que posee una pestaña donde se pueden encontrar todos las publicaciones relacionadas con este conjunto de datos, lo cual fomenta la colaboración y ayuda a eliminar la ineficiente practica de "Reinventar la rueda". 
 
       Evaluar segun el resto de los parametros. 
+      
+      
+      Diccionario sobre temas de almacenamiento de datos para cientiestas sociales. 
+      https://www.icpsr.umich.edu/web/ICPSR/cms/2042  Documentación es un termino adecuado.     
+      
+      https://www.icpsr.umich.edu/files/ICPSR/curation/preservation/policies/dp-policy-outline.pdf 
+      gia de politicas
 
 ### Qualitative Data repository
 
