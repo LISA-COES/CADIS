@@ -1,0 +1,79 @@
+  ---
+title: "¿Por qué es importante la apertura de datos?"
+---
+
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(out.width="80%", fig.pos = "!ht", out.extra = "") 
+```
+
+# Razones para compartir nuestros datos
+
+¿Has intentado alguna vez conseguir datos de una investigación social producidos por otros profesionales? Si alguna vez lo has intentado, probablemente sabes cuán difícil es. Si no lo has intentado, es algo como Micky Mouse intentando pasar a la siguiente habitación, puesto que nos enfrentaremos consecutivamente a una tras otra barrera.
+
+<img src="https://64.media.tumblr.com/ca0bf3ee0027fed5a2031ac3144a9a37/tumblr_nduvdezM3c1tmsiowo1_500.gifv" alt="iwaskixxinq:“ Literally my life right now” Estas abriendo puertas sin encontrar una salida a todo esto…">
+
+Imagine que el investigador responsable de un Fondecyt, Dr. Gonzales, desea estudiar la calidad de vida de los inmigrantes. En su revisión bibliográfica encuentra una investigación con datos que podrían ayudar al desarrollo del proyecto. Logra conseguir el contacto de la investigadora responsable y esta pese a su voluntad de compartir los datos le advierte que tardara unas semanas en ello, puesto que está muy ocupada y no sabe la ubicación actual de los mismos. Pese a perder valioso tiempo de su proyecto, el Dr. Gonzales logra acceder a la base de datos, no obstante, esta se encuentra dispersa en distintas hojas de cálculo. Al abrirlos e intentar conectarlos, se da cuenta de que no comprende el significado de cada variable, por lo cual requiere un libro de códigos de los datos. Vuelve a contactar a la investigadora, le solicita el cuestionario y el significado de cada variable. Lamentablemente, el equipo que creo la base de datos señala que no posee documentación sobre el significado de cada variable. Sin más, al no poder utilizar debidamente los datos producidos por la investigación anterior, el doctor Gonzales se resigna, y decide volver a invertir recursos en una encuesta, la cual probablemente tampoco quede a disposición de futuros investigadores.
+
+En suma, al intentar conseguir datos de otras investigaciones nos enfrentamos a diversas barreras como pueden ser la posibilidad de contactar al equipo, la voluntad del equipo de compartir sus datos, la calidad de la documentación de los datos, los formatos que pueden estar en versiones pagadas, entre otras. 
+
+¿Qué podemos hacer los investigadores sociales para evitar estas situaciones? Para ello, el movimiento de la ciencia abierta incentiva a los investigadores a publicar sus datos de investigación (Open Data). Más aun, se señala la importancia de publicarlos cumpliendo estándares internacionales sobre los datos y la documentación, de modo tal que cualquier investigador sea capaz de reutilizar los datos sin la necesidad de contactarse con el equipo que los produjo y con la información suficiente para reconocer o citar el aporte del equipo productor de los datos. 
+
+Esta propuesta no solo es respaldada por los investigadores que adhieren a la ciencia abierta, sino por un conjunto de instituciones internacionales y nacionales. La Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO, 2019) señala que para enfrentar los problemas que afectan al planeta en distintos ámbitos se requiere evidencia innovadora, de calidad y a libre disposición de todas las personas. Para garantizar que todos se beneficien lo mejor posible de la ciencia es necesario que esta sea abierta, en el sentido de que la forma como produce la información, la información que produce y las publicaciones que sistematizan los resultados se encuentren a libre disposición de la comunidad. El movimiento de la ciencia abierta fomenta este tipo de prácticas en todas las etapas de la investigación con el objetivo de mejorar la calidad de la ciencia, hacerla más democrática y accesible. Para fomentar este movimiento se han generado múltiples instituciones, leyes y herramientas para que los investigadores puedan compartir adecuadamente los productos de su investigación, siendo por ello un movimiento exitoso y creciente.
+
+En este contexto las ciencias sociales de algunos países también han buscado adaptarse a estas nuevas prácticas de ciencia abierta. Así, por ejemplo, se han creado algunos repositorios para almacenar información producida, como entrevistas y bases de datos. También algunas personas han empezado a utilizar plataformas que permiten trasparentar los análisis y primeras versiones de los textos a publicar. 
+
+De este modo podemos decir que a nivel internacional existe una amplia preocupación por democratizar el conocimiento. En esta línea, la Organización para la Cooperación y el desarrollo Económicos [@ocde_Open_2020], ha incluido dentro de las condiciones para mantenerse en la organización la obligación de que cada país incluya políticas de ciencia abierta, transparentando los procesos y resultados, para todas las investigaciones financiadas públicamente. A nivel nacional tanto el Instituto Nacional de Estadistas (INE), dependiente del Ministerio de Economía, como la Agencia Nacional de Investigación y Desarrollo [@anid_Con_2020] dependiente del Ministerio de Ciencia, han incorporado políticas y prácticas propias de la ciencia abierta. 
+
+En vista de estos cambios realizados por las instituciones chilenas de investigación, resulta evidente que aprender prácticas de ciencia abierta sobre como compartir los análisis y los datos producidos, se vuelve una necesidad para los investigadores Chilenos que trabajan en instituciones estatales o financiadas con fondos públicos. En vista de esta necesidad el objetivo de este documento es facilitar los conocimientos necesarios para abrir la información producida por las investigaciones. Antes de adentrarnos en dichos conocimientos, presentamos algunas de las ventajas de compartir la información producida por las investigaciones. 
+
+_Ventajas de la apertura de datos de investigación social_ 
+
+* Ética: 
+
+    + Es justo que el público general tenga acceso a los datos producidos especialmente cuando estos son producidos con fondos públicos [@bueno_What_2017]. Cabe destacar que Chile gasta aproximadamente $668.551 MM de pesos, lo cual equivale a un 0,35% del producto interno bruto. 
+    
+    + La apertura de los datos fomenta la ética investigativa y la confiabilidad, reduce el fraude y aumenta el valor de la sociología para los políticos y el público [@breznau_Future_2019]. 
+
+* Calidad y eficiencia científica:
+
+  + Dejar la base de datos a libre disposición permite hacer evaluaciones sobre la rigurosidad de los resultados mediante la reproducibilidad, mejorando la calidad y la confianza en la ciencia [@unesco_Que_2020].
+  
+  + Fomenta que más investigadores utilicen los datos y produzcan información (Whyte y Pryor, 2011), aumentando la colaboración y con ello la innovación científica según señala el Foro Abierto de Ciencias Latinoamérica y el Caribe CILIAC [@ramirez_Ciencia_2019].
+  
+  + Considerando que los recursos públicos asignados a investigación son escasos, la apertura de las bases de datos permite su reutilización y por ello ahorra recursos en la construcción de bases de datos, fomentando la eficiencia fiscal [@gomez_Datos_2016].
+  
+  + Facilita la preservación de información para estudios históricos que recopilen evidencia de larga data. Almacenar los datos permite resguardar el conocimiento producido a generaciones futuras. 
+  
+  + Poder acceder a los productos, procesos y discusiones propias de la investigación cualitativa, puede ayudar pedagógicamente a la formación universitaria, dando una idea más clara de lo que implica una investigación[@bishop_Revisiting_2017].
+  
+ * Incentivos personales: 
+ 
+      + Publicar los datos de la investigación, fomenta un mayor impacto y visibilidad, como señala la evidencia producida @piwowar_Data_2013 una investigación que comparte sus datos puede ser citada en un 30% más
+ 
+      + Compartir el diseño de investigación, las hipótesis y los datos puede fomentar comentarios constructivos respecto a la dirección de la investigación, ayudando a mejorar la calidad del material [@sharan_Ten_2020].
+
+Pese a las ventajas otorgadas por la apertura de la información producida, los investigadores poseen reticencias a la hora de publicar abiertamente "sus" datos [@ferguson_How_2014]. Estas reticencias de los investigadores, según @sharan_Ten_2020 pueden ser consideradas más bien mitos, los cuales se sustentan en prenociones que no corresponden a la realidad. A continuación, se destacan algunos de estos mitos y las razones de por qué podemos considerarlos como tal. 
+
+> "Preocupación a las consecuencias negativas" (mal uso, consecuencias legales o comerciales).
+       
+En parte este problema se soluciona mediante el uso adecuado de licencias las cuales pueden restringir el uso para ciertos fines. Además, para disminuir el posible mal uso la preparación de datos incluye hacer anónimos los datos. Respecto a las consecuencias legales, hay que considerar que en general estas investigaciones son financiadas con fondos públicos o por instituciones humanitarias, los cuales en el contexto actual fomentan en general la apertura de los datos.
+
+> Temor a la falta del reconocimiento debido de su trabajo.
+ 
+Como señalamos anteriormente, lejos de quitarle merito a su trabajo y disminuir su reconocimiento, el preparar y publicar los datos de modo adecuado puede ayudar a difundir la investigación y aumentar el número de citas. Además, usted también puede nutrirse de las investigaciones sobre sus datos.
+  
+> Disgusto frente a la carga de trabajo que implica preparar los datos para su publicación. 
+  
+Sin duda esta es una aprensión comprensible, no obstante, cada vez más existen herramientas que facilitan la labor de la preparación de datos cualitativos y cuantitativos. Por ejemplo, este documento le ayudara a disminuir dicha carga. Además, hay que considerar que si bien aumenta la carga de trabajo actual disminuye la futura en tanto la buena documentación de los datos también le permitirán a usted volver a trabajar con ellos en el futuro o con datos de otra investigación. 
+
+> Desconocimiento de cómo y dónde compartir los datos.
+
+Esta razón, igual de comprensible, es parte de una cultura académica poco acostumbrada al trabajo colaborativo. Por ello, debemos aprender sobre plataformas que faciliten compartir nuestros datos de investigación. Para ello, este trabajo ofrece una guía para preparar los datos y sobre como subirlos a la plataforma de ciencia abierta Open Science Framework.
+
+En miras de las dudas más comprensibles de los investigadores señaladas [@ferguson_How_2014; @sharan_Ten_2020] y de la necesidad tanto ética como legales de avanzar hacia la apertura de datos el contexto chileno, el presente documento busca facilitar la introducción al almacenamiento y publicación abierta de datos. Se busca entregar información para resolver los cuatro puntos señalados, dando cuenta de lo que debe hacerse para disminuir los riesgos, fomentar el reconocimiento del trabajo propio, facilitar el mejoramiento de la calidad de los datos y entregar información sobre dónde y cómo compartir los datos. 
+
+Para ello, este documento ofrece una propuesta de pasos a seguir para mejorar la calidad de los materiales de investigación producidos antes de publicarla en la web. Esta propuesta busca conciliar los estándares considerados óptimos en materia de almacenamiento y preservación de datos, con la realidad de las capacidades y herramientas de los investigadores chilenos en ciencias sociales. Dicho de otro modo, proponemos una lista de tareas a realizar para cumplir con los _mínimos_ necesarios para mejorar la calidad de los datos a publicar. 
+
+El documento de Consejos para la Apertura de Datos de Investigación Social (CADIS) se ordena en tres apartados, relativos a cómo preparar los datos, como documentarlos y donde publicarlos. Además, existen apartados anexos que presentan una recopilación de estándares y experiencias sobre el almacenamiento de datos.
+

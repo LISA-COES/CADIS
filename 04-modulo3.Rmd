@@ -33,8 +33,7 @@ A continuación se revisaran los siguientes estándares internacionales.
 
 ## Acceso abierto ICSU
  
- El Consejo Internacional para la Ciencia [@icsu_Open_2014] defiende los siguientes objetivos para la apertura
-acceso. El registro científico debe ser:
+ El Consejo Internacional para la Ciencia [@icsu_Open_2014] defiende los siguientes objetivos para la apertura. El registro científico debe ser:
 
 * libre de barreras financieras a las que pueda contribuir cualquier investigador;
 
@@ -156,6 +155,11 @@ Este punto refiere a entregar información sobre los productores y el flujo de t
 Los datos y los metadatos deben estar nombrados y ordenados de modo coherente con los estandares de las ciencias sociales. Por ejemplo, las bases de datos deben estar estructuradas de tal modo que los sujetos sean las filas y las variables las columnas. La documentación que se entrega esta nombrada con terminos comunes, como manual de usuario o cuestionario.  
 
 Segun la investigación de @gomez_Datos_2016, el esquema metadatos más utilizados en las ciencias sociales es el de DDC. No obstante, existe una gran divergencia respecto a cuales deben ser los metadatos incluidos. 
+
+
+```{r echo=FALSE, fig.align='center', fig.cap=""}
+knitr::include_graphics("images/FAIR_data_principles2.JPG")
+```
 
 ## DMP
 
@@ -465,7 +469,7 @@ Además de esta lista de tareas para el ciclo de vida de los datos, se destaca l
 
 ## Tuberia de datos (ICPSR)
 
-Una de las organizaciones mundiales más grandes en torno al almacenamiento de datos es inter-university Consortium for Political and Social Research (ICPSR). Esta plataforma, además de dedicarse al almacenamiento de datos realiza cursos sobre curatoría de datos. Esta plataforma posee múltiples bases de datos de distintas áreas y ofrece la posibilidad de distintos servicios como la posibilidad de descargar el metadata, de realizar análisis en línea, de realizar gráficos y, además, posee herramientas para solicitar bases de datos con información sensible, para lo cual es necesario entregar una serie de documentos como el cv. Esta plataforma si bien ofrece estos servicios no todas las bases de datos los utilizan.
+Una de las organizaciones mundiales más grandes en torno al almacenamiento de datos es Inter-university Consortium for Political and Social Research (ICPSR). Esta plataforma, además de dedicarse al almacenamiento de datos realiza cursos sobre curatoría de datos. Esta plataforma posee múltiples bases de datos de distintas áreas y ofrece la posibilidad de distintos servicios como la posibilidad de descargar el metadata, de realizar análisis en línea, de realizar gráficos y, además, posee herramientas para solicitar bases de datos con información sensible, para lo cual es necesario entregar una serie de documentos como el cv. Esta plataforma si bien ofrece estos servicios no todas las bases de datos los utilizan.
 
 Esta organización, hace un tiempo realizo un curso sobre curatoría y mantenimiento de datos, curso en el cual se enseñó, entre otros conocimiento y herramientas, el diseño de flujo de datos "tubería de procesamiento", que es un esquema con los pasos necesarios para la publicación de los datos en línea. Los pasos de este esquema se encuentran en el siguiente esquema.  
 

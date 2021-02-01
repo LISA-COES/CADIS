@@ -4,6 +4,6 @@ language:
     fig: 'Figura '
     tab: 'Tabla '
   ui:
-    chapter_name: "Sección "
+    chapter_name: ""
 delete_merged_file: true
 output_dir: "docs"

@@ -20,13 +20,14 @@ El ejemplo que se presenta a continuación posee como propósito comprender mejo
 
 <iframe width="900" height="400" src="https://www.icpsr.umich.edu/web/ICPSR/studies/25201" frameBorder="0"></iframe>
 
-Como puede verse se ofrece al usuario una descripción general del documento, lo cual facilita a los investigadores evaluar la pertinencia de  su uso. Tambien se puede descargar la documentación y los datos del estudio, pero dado la tematica y la importancia de ser prudentes con su divulgación estos deben solicitarse explicando el uso investigativo que se dará para que los autores evaluen si se dara acceso a los datos. 
+Como puede verse se ofrece al usuario una descripción general del documento, lo cual facilita a los investigadores evaluar la pertinencia de  su uso. Tambien se puede descargar la documentación y los datos del estudio, pero dado la temática y la importancia de ser prudentes con su divulgación estos deben solicitarse explicando el uso investigatívo que se dará para que los autores evaluen si se dara acceso a los datos. 
 
 En terminos FAIR este documento poseee un identificador, es encontrable y esta en un fomrato que es ampliamente utilizado el pdf. No obstante quizas seria bueno que las entrevistas tambien esten en formato de texto plano txt, para garantizar su perdurabildiad al largo plazo. 
 
 La siguiente base de datos trabaja sobre el desarrollo de los adolecentes y cuenta con más de 10 olas [@mortimer_Youth_2009]. Adempas a sido descargadad más de 100 mil veces, y posee más de 209 publicaciónes asociadas, lo que da cuenta de la buena difución con la que ha contado esta base datos y su posibilidad de ser usada por otros investigadores. Le invitamos a revisar los componentes en el repositorio. 
 
-<iframe width="900" height="400" src="https://www.icpsr.umich.edu/web/ICPSR/studies/24881/datadocumentation" frameBorder="0"></iframe>
+<iframe sandbox="allow-forms allow-scripts" width="900" height="400" src="https://www.icpsr.umich.edu/web/ICPSR/studies/24881/datadocumentation" frameBorder="0"></iframe>
+
 
 Un problema frecuente con los metadatos es que se requiere utilizar un formato de metadatos en particular, formato que no siempre acomoda a todos quienes requieran de ellos y además cambien en el tiempo [@gomez_Datos_2016]. Al respecto esta pagina posee como ventaja que permite al usuario descargar los metadatos en distintos formatos. 
 
@@ -92,7 +93,7 @@ Segun la institución, la idea central detrás del Proyecto Dataverse es automat
 
 El siguiente es un ejemplo de conjunto de datos sobre la replicación de un estudio sobre lasa actitudes de los residentes urbanos hacia la migración ambiental en Kenia y Vietnam.
 
-<iframe width="900" height="400" src="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PBLRV6"></iframe>
+<iframe sandbox="allow-forms allow-scripts" width="900" height="400" src="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PBLRV6"></iframe>
 
 
 Evaluando este conjunto de datos desde la perspectiva Fair podemos decir que es un buen ejemplo y cumple con los requisitos.
